@@ -2,7 +2,7 @@ require 'json'
 require 'time'
 
 calc = Proc.new do
-  (( Time.parse(Time.now.to_s) - Time.parse("2014-08-06") ) / (60 * 24 * 60)).round
+  (( Time.parse(Time.now.to_s) - Time.parse("2014-08-06") ) / (60 * 24 * 60))
 end
 
 payload = Proc.new do
